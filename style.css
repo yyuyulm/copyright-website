@@ -1,0 +1,175 @@
+body{
+  font-family: 'Courier Prime', monospace;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.background{
+  position: fixed;
+  margin: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+#bg{
+  position: fixed;
+  margin: 0%;
+  width:100%;
+  min-width: 100%;
+  min-height: 100%;
+  display: inline-block;
+  vertical-align: text-top;
+  opacity: 0.4;
+}
+
+#bg2{
+  position: relative;
+  width:100%;
+}
+
+#bg3{
+  position: fixed;
+  margin: 0%;
+  width:100%;
+  min-width: 100%;
+  min-height: 100%;
+  display: inline-block;
+  vertical-align: text-top;
+  opacity: 0.4;
+  transform: scaleX(-1);
+  transform: scaleY(-1);
+}
+
+.foreground{
+  position: absolute;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: auto;
+  z-index: 0;
+}
+
+img{
+  display: block;
+}
+
+h1{
+  position:relative;
+  margin-top: 0vh;
+  margin-bottom: 5vh;
+  width: auto;
+  font-style : bold;
+  font-size : 60px;
+}
+
+#questionimg{
+  position: relative;
+  left: 5%;
+  max-width:20%;
+}
+
+p{
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: auto;
+  margin-top: 3%;
+  font-size : 24px;
+  line-height: 1.5em;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.subscript{
+  margin-top: 0%;
+  font-style : italic;
+  font-size : 16px;
+}
+
+h2{
+  position:static;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top : 5%;
+  font-size :36px;
+}
+
+.prebreak{
+  white-space: pre;
+}
+
+.leftbubble{
+  margin-right: 15%;
+  margin-bottom: 5vh;
+}
+
+.rightbubble{
+  margin-left: 15%;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+#youtubeimg{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:20%;
+}
+
+#kidimg{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:20%;
+}
+
+#notsureimg{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:20%;
+}
+
+.fairusepage{
+  background-color: #FFFFFF;
+}
+
+#funeralimg{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:20%;
+}
+
+#neckimg{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:30%;
+}
+
+#thumbimg{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:20%;
+}
+
+#gunimg{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:20%;
+}
